@@ -1,0 +1,40 @@
+Testar i GIT no CMD: git -help
+
+Cria a pasta no PC, e vamos iniciar o vercionamento:
+
+1º Cria o Vercionamento: 
+git init
+
+2º Verifico a criação: 
+git status
+
+3º Insito o arquivo um a um: 
+git add "arquivo.txt"
+
+4º Inserir todos os arquivoa de uma só vez: 
+git add .
+
+5º Verifica os arquivos novamente: 
+git status
+
+6º Envia o arquivo para o github, porém dará um rrro: 
+git commit -m "msg"
+
+7º Configura seus dados abaixo, segundo a msg de erro:
+
+  git config --global user.email "akira@institutocory.com.br"
+  git config --global user.name "haradadev"
+
+8º Aponto o repositório do github remotamnete: 
+git remote add haradadev https://github.com/haradadev/aula_php.git
+
+9º conecte o git: 
+git push --set-upstream origin master
+
+9º envio os arquivos ao repositório GITHUB: 
+git push
+
+Após realizar alterações nos arquivos, você faz os 3 passos :
+1- git add .
+2- git commit -m "Terceira verção"
+3- git push
